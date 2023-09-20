@@ -6,6 +6,16 @@ enviar as configurações ***key/values*** para o *Consul*.
 
 ## Passos para execução:
 
+### Consul
+
+Ative o ***Consul*** no docker, executando o comando:
+
+* ***docker-compose up***
+
+O Consul estará disponível no endereço:
+
+* http://0.0.0.0:8500
+
 ### Instalar e inicializar o Jenkins:
 
 O Jenkins pode ser instalado em um Docker, Kubernetes, Linux e vários outros sistemas.
@@ -140,17 +150,9 @@ As configurações do ***Gonsul*** estão no ***Jenkinsfile***, na própria linh
 
 ![img_6.png](img_6.png)
 
-### Consul
 
-Ative o Consul no docker, executando o comando:
 
-* ***docker-compose up***
-
-O Consul estará disponível no endereço:
-
-* http://0.0.0.0:8500
-
-O ***Gonsul*** atualizará automaticamente as ***keys/values*** no ***Consul*** com os valores do ***repositório privado***:
+### O ***Gonsul*** atualizará automaticamente as ***keys/values*** no ***Consul*** com os valores do ***repositório privado***:
 
 ![img_7.png](img_7.png)
 
