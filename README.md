@@ -151,7 +151,6 @@ As configurações do ***Gonsul*** estão no ***Jenkinsfile***, na própria linh
 ![img_6.png](img_6.png)
 
 
-
 ### O ***Gonsul*** atualizará automaticamente as ***keys/values*** no ***Consul*** com os valores do ***repositório privado***:
 
 ![img_7.png](img_7.png)
