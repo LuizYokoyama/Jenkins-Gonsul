@@ -133,7 +133,7 @@ Em ***Pipeline > Definition*** escolha ***Pipelline script from SCM*** e preench
 
 ![img_4.png](img_4.png)
 
-Agora é necessário usar a URL do repositório que contém o Jenkinsfile, que é a deste repositório.
+Agora é necessário usar a URL do repositório que contém o Jenkinsfile, que é a deste repositório. O Jenkinsfile contém as configurações desta pipeline.
 
 Seguindo para ***Pipeline > Script Path*** preencha com ***Jenkinsfile***, para este arquivo do repositório ser usado na pipeline.
 
